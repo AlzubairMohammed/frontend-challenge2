@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  
+  <title>Frontend Mentor | Blog preview card</title>
+</head>
+<body class="[background-color:#F4D04E] flex items-center justify-center min-h-screen">
+  
+  <div class="grid grid-cols-5 grid-rows-5 rounded-[20px] shadow-[8px_8px_0_black] w-[384px] sm:w-[327px] md:w-[327px] h-[520px] md:h-[501px] sm:h-[501px] bg-white p-[24px]">
+    <div class="col-span-5 row-span-2 flex items-center justify-center p-0">
+    <img class="w-[336px] md:w-[279px] sm:w-[279px] h-[200px] [border-radius:10px]" src="./assets/images/illustration-article.svg" alt="">
+    </div>
+    <div class="grid grid-cols-5 grid-rows-10 col-span-5 row-span-2 flex items-center justify-center text-left gap-5 md:w-[279px] sm:w-[279px] md:h-[173px] sm:h-[173px]">
+      <button class="row-span-3 py-[4px] mt-9 px-[12px] bg-[#F4D04E] rounded-[4px] h-[29px] w-[82px] text-sm font-bold text-[#111111]">Learning</button>
+      <p class="col-span-5 row-span-2 text-[14px] md:text-[12px] sm:text-[12px] w-[143px] h-[21px] text-[#111111]">Published 21 Dec 2023</p>
+      <p class="col-span-5 row-span-2 text-[24px] md:text-[20px] sm:text-[20px] w-[336px] h-[36px] text-[#111111] font-bold">HTML & CSS foundations</p>
+      <p class="col-span-5 row-span-3 text-[16px] md:text-[14px] sm:text-[14px] w-[336px] h-[72px] text-[#6B6B6B]">These languages are the backbone of every website, defining structure, content, and presentation.</p>
+    </div>
+    <div class="col-span-5 row-span-1 pt-10">
+      <img class="w-[32px] h-[32px] inline-block" src="./assets/images/image-avatar.webp" alt="">
+      <p class="w-[85px] h-[21px] text-[14px] font-bold inline-block">Greg Hooper</p>
+    </div>
+  </div>
+</body>
+</html>
